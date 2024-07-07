@@ -29,19 +29,13 @@ a {
 }
 .search-section h1 {
   font-size: 80px;
-  letter-spacing: -4px;
+  letter-spacing: -1px;
   color: #000000;
+  font-family: 'GT America Standard', sans-serif;
 }
 .arrow-svg {
-  fill: #000000;
-  transform: translateY(-50%);
-  position: absolute;
-  right: 15px;
-  bottom: -5px;
-  z-index: 1;
   width: 28px;
-  z-index: 100;
-  transition: all 0.3s;
+  height: 36.23px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -53,10 +47,41 @@ svg:not(:root) {
   background-color: #4c5fd5;
   color: #fff;
   border: 1px solid #4c5fd5;
+  transition: .4s ease;
 }
 .header div:last-child a{
     font-size: 24px;
 }
 .header div:last-child a:first-child{
     border: 1px solid white;
+}
+.header div:last-child a:last-child:hover{
+  background-color: #fff;
+  color: rgb(33,37,41);
+  border: 1px solid #fff;
+
+}
+.search-section input:focus{
+  outline: none;
+  border: none;
+}
+.search-section div{
+  border: 1px solid #000000;
+  width: 53.4%;
+}
+.search-section div:hover{
+  border-color: #4c5fd5;
+}
+.search-section div:hover .arrow-svg {
+  fill: #4c5fd5 ;
+}
+.search-section input::placeholder{
+  font-size: 18px;
+  font-weight: 600;
+}
+.search-section input{
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 1.127rem ;
+  padding-bottom: 1.127rem ;
 }

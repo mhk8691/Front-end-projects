@@ -29,7 +29,7 @@ body {
   margin-bottom: 3rem;
 }
 a {
-  text-decoration: none !important;
+  /* text-decoration: none !important; */
 }
 .search-section h1 {
   font-size: 80px;
@@ -52,12 +52,14 @@ svg:not(:root) {
   color: #fff;
   border: 1px solid #4c5fd5;
   transition: 0.4s ease;
+  padding: 0.66rem 2rem;
 }
 .header div:last-child a {
   font-size: 24px;
 }
 .header div:last-child a:first-child {
   border: 1px solid white;
+  padding: 0.66rem 0;
 }
 .header div:last-child a:last-child:hover {
   background-color: #fff;
@@ -114,4 +116,46 @@ footer .column:first-child {
   .copyright {
     margin-right: 0;
   }
+}
+a {
+  text-decoration: none !important;
+}
+.menuBtn ,.search-btn{
+  width: auto;
+  height: 30px;
+  cursor: pointer;
+}
+/* .line::after {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 3px;
+  display: flex;
+
+  background-color: white;
+}
+ */
+.line {
+  position: relative;
+  display: inline-block;
+}
+
+.line::after {
+  content: "";
+  display: block;
+  width: 250%; /* طول خط */
+  height: 1px; /* ارتفاع خط */
+  background-color: white; /* رنگ خط */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+}
+.line,
+.line + a {
+  font-size: 24px;
+  color: white; /* رنگ متن */
+}
+.line + a {
+  margin-top: 35px;
 }

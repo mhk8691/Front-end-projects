@@ -4,19 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="bootstrap.min.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abstract</title>
   </head>
   <body>
     <div class="header bg-black d-flex justify-content-between">
-      <div class="">
-        <a href="" class="">
+      <div class="d-flex align-items-center">
+        <a href="" class="logo">
           <svg
-            class=""
+            class="abstract-logo logo"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 200 51"
             preserveAspectRatio="xMinYMid slice"
+            style="width: 126px"
           >
             <g class="abstract-logo-mark" fill="#fff">
               <path
@@ -60,7 +67,10 @@
             </g>
           </svg>
         </a>
-        <a href="" class="text-white d-inline">Help Center</a>
+        <div class="separator ms-3"></div>
+        <a href="" class="text-white d-inline fs-4 mt-1 ms-3 Help"
+          >Help Center</a
+        >
       </div>
 
       <div class="">
@@ -68,21 +78,25 @@
           <a href="" class="text-bg-dark px-4 rounded-3">Submit a request</a>
           <a href="" class="rounded-3 ms-3">Sign in</a>
         </div>
-        <img
+        <!-- <img
           src="img/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
           alt=""
-          class="search-btn d-inline d-xl-none" 
-        />
-        <img
-          src="img/menu-regular-24.png"
-          alt=""
-          class="menuBtn d-inline d-xl-none"
-        />
+          class="search-btn d-inline d-xl-none "
+        /> -->
+        <i
+          class="fa-solid fa-magnifying-glass search-btn d-inline d-xl-none fa-xl"
+          style="color: #ffffff"
+        ></i>
+
+        <i
+          class="fa-solid fa-bars fa-xl menuBtn d-inline d-xl-none ms-2"
+          style="color: #ffffff"
+        ></i>
       </div>
     </div>
     <hr class="m-0 p-0" />
     <div
-      class="text-bg-dark d-none flex-column justify-content-center align-items-center py-5 menu"
+      class="text-white bg-black d-none flex-column justify-content-center align-items-center py-5 menu"
     >
       <a href="" class="line">Submit a request</a>
 
@@ -93,7 +107,7 @@
       <div class="search-section d-flex flex-column align-items-center">
         <h1 class="fw-medium">How can we help?</h1>
         <div
-          class="d-flex justify-content-around bg-white align-items-center pe-3 ps-1 rounded-2 mt-4"
+          class="d-flex justify-content-around bg-white align-items-center pe-3 ps-1 rounded-2 mt-4 "
         >
           <input type="text" placeholder="Search" class="border-0 w-100 px-3" />
           <svg

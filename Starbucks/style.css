@@ -1,0 +1,44 @@
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+@media screen and (max-width: 789px) {
+  .gift-cards,
+  .menu,
+  .rewards,
+  .Join-now,
+  .Sign-in,
+  .find {
+    display: none;
+  }
+  .navbar-toggler {
+    display: block !important;
+  }
+}
+.navbar-toggler {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .Starbucks-Rewards h1 {
+    margin-left: 1rem;
+  }
+  .Starbucks-Rewards a{
+    margin-right: 1rem;
+  }
+  .navbar svg:first-of-type{
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 768px)  {
+  .Starbucks-Rewards h1 {
+    margin-left: 8rem;
+  }
+  .navbar svg:first-of-type{
+    width: 51px;
+    height: 51px;
+  }
+}
+a{
+  text-decoration: none !important;
+}

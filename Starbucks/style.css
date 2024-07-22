@@ -22,23 +22,33 @@
   .Starbucks-Rewards h1 {
     margin-left: 1rem;
   }
-  .Starbucks-Rewards a{
+  .Starbucks-Rewards a {
     margin-right: 1rem;
   }
-  .navbar svg:first-of-type{
+  .navbar svg:first-of-type {
     width: 40px;
     height: 40px;
   }
+  .get-start p:not(:nth-child(2)) {
+    margin-left: 4.5rem;
+  }
 }
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) {
   .Starbucks-Rewards h1 {
     margin-left: 8rem;
   }
-  .navbar svg:first-of-type{
+  .navbar svg:first-of-type {
     width: 51px;
     height: 51px;
   }
 }
-a{
+a {
   text-decoration: none !important;
+}
+.get-start h3 {
+  font-size: 19px;
+}
+.get-start a{
+  color: #008752;
+  text-decoration: underline !important;
 }

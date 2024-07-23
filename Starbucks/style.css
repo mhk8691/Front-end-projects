@@ -48,7 +48,115 @@ a {
 .get-start h3 {
   font-size: 19px;
 }
-.get-start a{
+.get-start a {
   color: #008752;
   text-decoration: underline !important;
+}
+.favorites .header {
+  background-color: #f1f8f5;
+}
+.favorites .description {
+  background-color: #d4e9e2;
+}
+.favorites .header h2 {
+  font-size: 28px;
+}
+.favorites .description h3 {
+  font-size: 24px;
+}
+.favorites .description img {
+  width: 375px;
+  height: 211px;
+}
+.star {
+  color: #cba258;
+  font-size: 16px;
+  margin-left: -7px;
+}
+.favorites .rating .number {
+  font-size: 24px;
+}
+.Starbucks-Rewards {
+  position: sticky;
+}
+@media screen and (max-width: 767px) {
+  .description h3 {
+    font-size: 19px !important;
+  }
+  .extras h3 {
+    font-size: 16px !important;
+  }
+  .coming .container-fluid img {
+    width: 112px !important;
+    height: 49.98px !important;
+  }
+  .Questions{
+    padding-left: 1rem !important;
+  }
+}
+.description h3 {
+  font-size: 24px;
+}
+.extras img {
+  width: 112px;
+  height: 112px;
+}
+.extras h3 {
+  font-size: 19px;
+}
+.extras a {
+  text-decoration: underline !important;
+  color: #186966;
+  font-weight: 500;
+}
+.Starbucks-Rewards {
+  position: sticky;
+  top: 0; /* فاصله از بالای صفحه */
+}
+.cash {
+  background-color: #f2f0eb;
+  margin-top: 8rem !important;
+}
+.cash .header h2 {
+  font-size: 28px;
+}
+.cash .header p {
+  font-weight: 400;
+}
+.cash img {
+  width: 112px;
+  height: 158px;
+}
+.cash h3 {
+  font-size: 19px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cash .cash-card {
+    width: 50% !important;
+    margin: 20px 0 !important;
+    padding: 0 !important;
+  }
+  .star-dollar {
+    width: 100% !important;
+  }
+}
+.coming {
+  background-image: url(img/844262945b2a8b8cfb29.png);
+}
+.coming .container-fluid {
+  background-color: #d4e9e2;
+}
+.coming .header h2 {
+  font-size: 28px;
+}
+.coming .header p {
+  font-weight: 500;
+}
+.coming a:not(.join-btn) {
+  color: #008752;
+
+  text-decoration: underline !important;
+}
+.join-btn{
+  background-color: #158159;
 }

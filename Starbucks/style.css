@@ -90,7 +90,7 @@ a {
     width: 112px !important;
     height: 49.98px !important;
   }
-  .Questions{
+  .Questions {
     padding-left: 1rem !important;
   }
 }
@@ -109,10 +109,10 @@ a {
   color: #186966;
   font-weight: 500;
 }
-.Starbucks-Rewards {
+/* .Starbucks-Rewards {
   position: sticky;
-  top: 0; /* فاصله از بالای صفحه */
-}
+  top: 0; 
+} */
 .cash {
   background-color: #f2f0eb;
   margin-top: 8rem !important;
@@ -157,6 +157,43 @@ a {
 
   text-decoration: underline !important;
 }
-.join-btn{
+.join-btn {
   background-color: #158159;
+}
+.link-section a,
+.accordion a {
+  color: #00000094;
+}
+.link-section a:hover,
+.accordion a:hover {
+  color: #000000;
+}
+.contact-us a svg {
+  color: #1e1e1e;
+  margin-right: 10px;
+}
+.contact-us div a:hover {
+  text-decoration: underline !important;
+}
+.contact-us div p {
+  color: #00000094;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1023px) {
+  .link-section {
+    display: none;
+  }
+  .accordion {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .accordion {
+    display: none;
+  }
+}
+.accordion button {
+  font-size: 19px;
+  font-weight: 500;
 }

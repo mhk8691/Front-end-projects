@@ -93,6 +93,13 @@ a {
   .Questions {
     padding-left: 1rem !important;
   }
+  .content h1{
+    font-size: 28px !important;
+  }
+
+  .content p{
+    font-size: 16px !important;
+  }
 }
 .description h3 {
   font-size: 24px;
@@ -196,4 +203,38 @@ a {
 .accordion button {
   font-size: 19px;
   font-weight: 500;
+}
+
+header {
+  background-color: rgb(212, 233, 226);
+  background: url("img/xl-hero-desktop_2021.png") no-repeat, rgb(212, 233, 226);
+  background-size: cover;
+  background-position: bottom; /* تنظیم موقعیت تصویر */
+  height: 90vh; /* ارتفاع هدر را بر اساس نیاز خود تنظیم کنید */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.content {
+  color: #000;
+}
+
+.button {
+  display: inline-block;
+  background-color: #158159;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #2e8d6a;
+}
+.content h1{
+font-size: 36px;
+}
+.content p{
+  font-size: 19px;
+}
+.join-online{
+  text-decoration: underline !important;
 }

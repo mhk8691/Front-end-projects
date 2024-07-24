@@ -25,7 +25,7 @@ drinkInfo.forEach((element) => {
   let col = document.createElement("div");
   let div = document.createElement("div");
   let link = document.createElement("a");
-  link.href = `detail.html`;
+  link.href = `detail.html?id=${element.id}`;
   col.classList.add("col-6");
   image.src = element.image;
   title.innerHTML = element.title;

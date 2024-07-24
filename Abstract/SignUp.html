@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+  </head>
+  <body>
+    <div
+      class="container d-flex justify-content-center align-items-center min-vh-100"
+    >
+      <div class="card border border-5 px-5 p-4" style="width: 400px">
+        <h4 class="card-title text-center mt-3">Sign up to Abstract</h4>
+        <p class="text-center mt-3">
+          Please fill out this form, and we'll send you a welcome email so you
+          can verify your email address <br />
+          and sign in.
+        </p>
+        <p class="text-center mt-2">
+          <small>Required fields are marked by an asterisk (*)</small>
+        </p>
+        <form>
+          <div class="form-group">
+            <label for="fullName">Your full name *</label>
+            <input
+              type="text"
+              class="form-control border mt-1 border-1 border-black"
+              id="fullName"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" class="mt-2">Your email *</label>
+            <input
+              type="email"
+              class="form-control border mt-1 border-1 border-black"
+              id="email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password" class="mt-2">Your password *</label>
+            <input
+              type="password"
+              class="form-control border mt-1 border-1 border-black"
+              id="password"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block w-100 mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Sign up
+          </button>
+          <div class="d-flex justify-content-end">
+            <button
+              type="button"
+              class="btn btn-link btn-block text-black"
+              style="font-size: 13px"
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">sign in</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modalContent">
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>

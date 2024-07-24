@@ -1,0 +1,29 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.btn-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 400;
+}
+h4 {
+  font-size: 16px;
+}
+p {
+  font-size: 13px;
+  color: #49545c;
+}
+label {
+  font-size: 13px;
+  font-weight: 500;
+}

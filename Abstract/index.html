@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -76,13 +76,22 @@
       <div class="">
         <div class="d-none d-xl-block">
           <a href="" class="text-bg-dark px-4 rounded-3">Submit a request</a>
-          <a href="" class="rounded-3 ms-3">Sign in</a>
+          <h6
+            class="d-inline text-warning ms-3"
+            style="font-size: 24px"
+            id="info"
+          >
+            hello
+          </h6>
+          <a
+            href="login.html"
+            class="rounded-3 ms-3  btn btn-outline-danger"
+            id="logout"
+            >logout</a
+          >
+          <a href="login.html" class="rounded-3 ms-3" id="signin">Sign in</a>
         </div>
-        <!-- <img
-          src="img/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
-          alt=""
-          class="search-btn d-inline d-xl-none "
-        /> -->
+
         <i
           class="fa-solid fa-magnifying-glass search-btn d-inline d-xl-none fa-xl"
           style="color: #ffffff"
@@ -107,7 +116,7 @@
       <div class="search-section d-flex flex-column align-items-center">
         <h1 class="fw-medium">How can we help?</h1>
         <div
-          class="d-flex justify-content-around bg-white align-items-center pe-3 ps-1 rounded-2 mt-4 "
+          class="d-flex justify-content-around bg-white align-items-center pe-3 ps-1 rounded-2 mt-4"
         >
           <input type="text" placeholder="Search" class="border-0 w-100 px-3" />
           <svg
@@ -269,7 +278,7 @@
       </div>
     </footer>
 
-    <script src="app.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

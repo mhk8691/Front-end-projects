@@ -160,12 +160,32 @@ nav .right a {
 .money {
   font-weight: 700;
 }
-.heart{
-    width: 3rem;
-    height: 3rem;
+.heart {
+  width: 3rem;
+  height: 3rem;
 }
-.add-cart{
-    background-color: #e60012;
-    color: white;
-    border: none;
+.add-cart,
+.explore {
+  background-color: #e60012;
+  color: white;
+  border: none;
+}
+.explore-section h2 {
+  font-size: 21px;
+  color: #434242;
+}
+.explore-section p {
+  color: #434242;
+}
+.explore-section a {
+  color: #e60012;
+  text-decoration: none;
+  font-weight: 700;
+}
+.explore-section svg{
+  width: 26px;
+  height: 18px;
+}
+.explore-section p:last-of-type{
+  font-size: 12px;
 }

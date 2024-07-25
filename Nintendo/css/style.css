@@ -1,0 +1,171 @@
+.brand {
+  color: white;
+  background-color: #e60012;
+  padding: 18px;
+  width: 100px;
+}
+nav .right a {
+  color: #434242;
+  text-decoration: none;
+}
+nav .left input:focus {
+  outline: none;
+  border: none;
+}
+nav .left select {
+  font-weight: 500;
+  font-size: 14px;
+}
+nav .left input::placeholder {
+  font-size: 14px;
+}
+nav .right svg,
+nav .right a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #434242;
+}
+.menu button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: inherit;
+  color: #434242;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem 0;
+}
+.menu button svg:last-of-type {
+  margin-top: 3px;
+}
+.menu button {
+  margin-left: 25px;
+}
+.custom-banner {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+.custom-banner img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.custom-banner a {
+  margin-left: 1px;
+}
+.custom-banner .right::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: black;
+  display: block;
+  position: absolute; /* اضافه کردن این خط */
+  left: 10px; /* موقعیت خط از سمت چپ */
+  top: 0; /* موقعیت خط از سمت بالا */
+}
+.custom-banner .right {
+  position: relative;
+}
+.custom-banner svg {
+  color: #e60012;
+}
+@media screen and (max-width: 1024px) {
+  .menu {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .right a:not(:last-of-type) {
+    display: none;
+  }
+  nav {
+    background-color: #e60012;
+  }
+  .brand {
+    width: 110px;
+    height: 54px;
+  }
+  .store {
+    display: none;
+  }
+
+  .custom-banner .right {
+    display: none;
+  }
+}
+.Stardew-Valley a {
+  text-decoration: none;
+  color: #434242;
+}
+.Stardew-Valley {
+  background-color: #d6f0fa;
+}
+.parent-image {
+  position: relative;
+}
+.parent-image button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+.parent-image button:first-of-type {
+  left: 5%;
+}
+.parent-image button:last-of-type {
+  left: 87%;
+}
+.parent-image:hover button {
+  display: inline;
+}
+.parent-image button:focus {
+  border: none;
+  outline: none;
+}
+.esrb-rating {
+  display: flex;
+  align-items: start;
+}
+.esrb-rating img {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+.esrb-content {
+  border-top: 1px solid #000;
+}
+.esrb-content p {
+  color: #434242;
+}
+.line {
+  width: 2px;
+  height: 20px;
+  background-color: #e60012;
+  display: block;
+  top: 1px;
+  position: absolute;
+}
+.Stardew,
+.money {
+  font-size: 28px;
+  color: #434242;
+}
+.money {
+  font-weight: 700;
+}
+.heart{
+    width: 3rem;
+    height: 3rem;
+}
+.add-cart{
+    background-color: #e60012;
+    color: white;
+    border: none;
+}

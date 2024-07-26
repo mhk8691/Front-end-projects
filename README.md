@@ -1,5 +1,6 @@
 # Front-end-practice-project
 
+[دستور العمل به فارسی](README-FA.md)
 This project contains three folders, each representing a separate site. To visit a site, follow the instructions below.
 
 ## How to Visit Each Site

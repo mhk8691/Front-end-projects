@@ -145,3 +145,4 @@ minBtn.addEventListener("click", () => {
   }
   localStorage.setItem("game", JSON.stringify(gameObj));
 });
+

@@ -99,6 +99,15 @@ nav .right a {
   .custom-banner .right {
     display: none;
   }
+  .copy-right .col-6 {
+    width: 100% !important;
+  }
+  .country {
+    display: none;
+  }
+  .copy-right {
+    text-align: center;
+  }
 }
 .Stardew-Valley a {
   text-decoration: none;
@@ -182,11 +191,11 @@ nav .right a {
   text-decoration: none;
   font-weight: 700;
 }
-.explore-section svg{
+.explore-section svg {
   width: 26px;
   height: 18px;
 }
-.explore-section p:last-of-type{
+.explore-section p:last-of-type {
   font-size: 12px;
 }
 /* @media screen and (max-width:767px) {
@@ -194,3 +203,93 @@ nav .right a {
     padding-left: 0;
   }
 } */
+
+.release-date-container {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.release-date-left {
+  display: flex;
+  align-items: center;
+}
+.release-date-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.release-date-text {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.release-date-date {
+  flex-grow: 1;
+  text-align: center;
+}
+.release-date-text {
+  font-size: 17px;
+  color: #434242;
+  margin-top: 5px;
+}
+@media (max-width: 767px) {
+  .release-date-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .release-date-date {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 2.3rem;
+  }
+}
+.release-date-container a {
+  color: #e60012;
+}
+.contact-us {
+  background-color: #e60012;
+}
+.contact-us div:first-child svg {
+  width: 200%;
+  height: 100%;
+  /* display: block; */
+  /* box-sizing: border-box; */
+}
+.contact-us div:first-child {
+  margin-right: 72px;
+}
+@media screen and (max-width: 767px) {
+  .contact-us div:first-child {
+    margin-right: 72px;
+  }
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline #e60012 2px;
+}
+footer .title-link {
+  color: #434242;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+footer a:not(.title-link) {
+  color: #e60012;
+  margin-top: 7px;
+  font-weight: 700;
+}
+.copy-right {
+  background-color: #242424;
+  color: white;
+}
+.copy-right a {
+  color: white;
+  text-decoration: none;
+}
+.copy-right p,
+.copy-right a {
+  font-size: 12px;
+}
